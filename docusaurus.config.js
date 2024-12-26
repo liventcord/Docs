@@ -4,15 +4,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
+  title: 'LiventCord Docs',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://liventcord.github.io/LiventCordPages',
+  baseUrl: '/Docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'LiventCord',
+  projectName: 'Docs',
+  trailingSlash: false,
 
   presets: [
     [
@@ -41,9 +42,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'LiventCord',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'LiventCord Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -77,17 +78,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              }
             ],
           },
           {
